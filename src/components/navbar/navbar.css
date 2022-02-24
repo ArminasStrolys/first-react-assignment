@@ -1,0 +1,16 @@
+.nav-pills{
+    color: green;
+    background-color: aqua;
+}
+.nav-pills .nav-link.active{
+    background-color: brown;
+}
+.Nav.Item{
+    background-color: blue;
+}
+.Item{
+    background-color: rgb(0, 145, 65);
+}
+.nav-item{
+    background-color: rgb(155, 144, 0);
+}
