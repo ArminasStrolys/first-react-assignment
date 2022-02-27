@@ -1,6 +1,6 @@
 .main-container {
   background-color: rgb(226, 226, 226);
-  min-height: 62vh;
+  height: 1000px;
 }
 .red-banner {
   background-color: rgb(211, 86, 29);
