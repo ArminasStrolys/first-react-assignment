@@ -1,18 +1,18 @@
 import React from "react";
 import "./content.css";
-import Sidenote from '../sidenote/Sidenote';
+import Sidenote from "../sidenote/Sidenote";
 import { Container, Row, Col } from "react-bootstrap";
 
 export default function Content() {
   return (
     <Container fluid className="main-container">
-      <Row className="col-md-auto">
+      <Row className="col-lg-auto">
         <Col className="red-banner">
           <span>Welcome!</span>
         </Col>
       </Row>
       <Row>
-        <Col className="col-md-7 text">
+        <Col className="col-12 col-lg-7 text">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
             ipsam mollitia explicabo eius? Dolor, voluptas libero ut
@@ -32,7 +32,7 @@ export default function Content() {
             aspernatur explicabo voluptate?
           </p>
         </Col>
-        <Col className="offset-md-1 justify-content-end">
+        <Col className="offset-lg-1 justify-content-end">
           <Sidenote />
         </Col>
       </Row>
