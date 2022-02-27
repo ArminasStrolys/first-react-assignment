@@ -4,7 +4,7 @@ import Content from "../content/Content";
 function App() {
   return (
 <div className="App">
-<div className="">
+<div className="content">
 <Navbar/>
 <Content/>
 </div>

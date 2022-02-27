@@ -1,36 +1,37 @@
-import React from 'react'
+import React from "react";
 import "./navbar.css";
-import {Container} from 'react-bootstrap'
-import {Nav, Row, Col} from "react-bootstrap"
+import { Container } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
+import logo from "./Goog.png";
 
 export default function Navbar() {
   return (
     <Container fluid>
-
-
-<Row>
-<Col>Welcome!</Col>
-</Row>
-
-<Row>
-<Nav variant="pills" defaultActiveKey="/home" className='justify-content-end'>
-  <Nav.Item>
-    <Nav.Link eventKey="link-1">Home</Nav.Link>
-  </Nav.Item>
-  <Nav.Item>
-    <Nav.Link eventKey="link-2">About</Nav.Link>
-  </Nav.Item>
-  <Nav.Item>
-    <Nav.Link eventKey="link-3">Work</Nav.Link>
-  </Nav.Item>
-  <Nav.Item>
-    <Nav.Link eventKey="link-3">Contact</Nav.Link>
-  </Nav.Item>
-</Nav>
-</Row>
-
-
-
+      <div class="row align-items-end margin justify-content-end">
+        <div class="col-md-2">
+          <img src={logo} alt="" />
+        </div>
+        <div class="col-md-1 offset-md-5">
+          <Nav.Item>
+            <Nav.Link eventKey="link-1">Home</Nav.Link>
+          </Nav.Item>
+        </div>
+        <div class="col-md-1">
+          <Nav.Item>
+            <Nav.Link eventKey="link-1">About</Nav.Link>
+          </Nav.Item>
+        </div>
+        <div class="col-md-1">
+          <Nav.Item>
+            <Nav.Link eventKey="link-1">Work</Nav.Link>
+          </Nav.Item>
+        </div>
+        <div class="col-md-1">
+          <Nav.Item>
+            <Nav.Link eventKey="link-1">Contact</Nav.Link>
+          </Nav.Item>
+        </div>
+      </div>
     </Container>
-  )
+  );
 }
