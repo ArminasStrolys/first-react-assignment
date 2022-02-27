@@ -1,6 +1,9 @@
 .nav-item {
   background-color: rgb(226, 226, 226);
 }
+.nav-color{
+  background-color: white;
+}
 .row {
   grid-column-gap: 20px;
   margin: 0 10%;
@@ -11,7 +14,7 @@
   color: rgb(141, 141, 141);
 }
 .container-fluid {
-  margin-top: 20px;
+  padding-top: 20px;
 }
 .margin {
   margin-top: 100px;

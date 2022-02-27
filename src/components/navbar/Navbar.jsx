@@ -6,7 +6,7 @@ import logo from "./Goog.png";
 
 export default function Navbar() {
   return (
-    <Container fluid>
+    <Container fluid className="nav-color">
       <div class="row align-items-center margin justify-content-between">
         <div class="col-md-2">
           <img src={logo} alt="" />
